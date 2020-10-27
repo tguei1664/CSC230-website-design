@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<header>
+     <h11>Tehe Leonard Wilfred Guei</>
+	 <h3>CSC230 Website Design <br />
+	      Fall 2020</h3>
+</header>
+
+<nav>
+</nav>
+
+<aside>
+</aside>
+
+<section>
+     <o1>
+	    <l1>Assigment 01</l1>
+		<u1>
+		   <l1>Tutorial 01 - The J-Prop Shop</l1>
+		   <l1>Review 01 - Basic Strick</l1>
+		</ul>
+		<l1>Assigment 02</l1>
+		<u1>
+		    <l1>Tutorial 02 -</l1>
+		</u1>
+	<o1>
+</section>
+
+<body>
+
+    <header>
+	
+	<article>
+	    <h1> assn01 /h1>
+		<p><a href="mailto:assn01"></a></p>
+	
+	
+	<footer>
+	
+	
