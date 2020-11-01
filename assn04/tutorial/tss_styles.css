@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@font-face {
+   font-family: Quicksand;
+   src: url(Quicksand-Regular.woff) format('woff'),
+        url(Quicksand-regular.ttf)  format('truetype'),
+}
+
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -30,13 +36,8 @@ body {
 
 /* Heading Styles */
 
-article#about_tss h1 {
-   color: white;
-}  background-color 
-
-article#about_tss h2 {
-   color: white;
-   background-color:rgb(235, 177, 131);
+h1, h2 {
+   font-family: Quicksand, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
