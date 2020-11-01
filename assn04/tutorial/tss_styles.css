@@ -85,6 +85,9 @@ article.syllabus ol ol ol {
    list-style-type: decimal;
 }
 
+article#about_tss ul {
+   list-style-image: url(runicon.png);
+}
 
 
 
