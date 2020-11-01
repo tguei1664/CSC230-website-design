@@ -31,7 +31,7 @@ body {
 
 h1 {
    color: white;
-}  background-color: rgb(222, 128, 60);
+}  background-color 
 
 h2 {
    color: white;
@@ -41,6 +41,10 @@ h2 {
 
 
 /* Blockquote Styles */
+
+aside blockquote{
+   color: rgb(232, 165, 116);
+}
 
 
 
