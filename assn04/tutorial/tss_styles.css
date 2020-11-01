@@ -21,6 +21,7 @@ html {
 body {
    color: rgb(91, 91, 91);
    background-color: ivory;
+   font-family: Verdana, Geneva, sans-serif;
 }
 
 /* Main Structural Styles */
@@ -37,8 +38,6 @@ article#about_tss h2 {
    color: white;
    background-color:rgb(235, 177, 131);
 }
-
-article.syllabus h1, article.syllabus h2 
 
 
 
