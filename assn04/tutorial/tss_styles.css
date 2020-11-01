@@ -41,6 +41,7 @@ article#about_tss h1, h2 {
    color: rgb(101, 101, 101);
    font-family: Quicksand, Verdana, Geneva, Tahoma, sans-serif;
    font-size: 2.2em, 1.5em
+   letter-spacing 0.1em
 }
 
 
@@ -60,6 +61,10 @@ nav{
    font-size: 0.8em;
 }
 
+nav > ul {
+   line-height: 2em;
+}
+
 
 
 
@@ -68,6 +73,21 @@ nav{
 
 
 /* List Styles */
+article.syllabus ol {
+   list-style-type: upper-roman;
+}
+
+article.syllabus ol ol {
+   list-style-type: upper-alpha;
+}
+
+article.syllabus ol ol ol {
+   list-style-type: decimal;
+}
+
+
+
+
 
 
 
