@@ -1,5 +1,15 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: Quicksand;
+    src:url(cac_champagne.woff) format('woff'),
+        url(cac_champagne.ttf) format('ttf'),
+        url(1942.ttf) format(ttf),
+        url(1942.woff) format('woff'),
+        url(DobkinPlain.woff) format('woff'),
+        url(DobkinPlain.ttf) format('ttf');
+}
+
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
