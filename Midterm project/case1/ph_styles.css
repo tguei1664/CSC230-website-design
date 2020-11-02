@@ -35,12 +35,21 @@ body {
     font-family: 'palatino linotype', 'Book Antiqua','palatino, serif';
 }
 
+
 p> {
     margin: 0px;
     padding-top: 5px;
     padding-right: 25px;
     padding-bottom: 25px;
     padding-left: 25px;
+}
+
+footer-address {
+    font-style: normal;
+    font-size: 0.9em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: horizontally;
 }
 /*Heading Styles*/
 
