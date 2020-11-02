@@ -36,6 +36,10 @@ h1 h2{
 
 
 /* Navigation Styles */
+nav > {
+    line-height: 2em;
+    font-size: 00.9em;
+}
 
 
 
