@@ -17,6 +17,7 @@
 body{
     color: rgb(227, 210, 173);
    background-color: 'century Gothic', sans-seril;
+   
 }
 
 
@@ -46,4 +47,7 @@ html{
 
 
 /* Blockquote Styles */
-
+body > footer {
+    background-color: rgb(208, 184, 109);
+    font: bold;
+}
