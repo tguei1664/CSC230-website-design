@@ -35,6 +35,11 @@ body {
     font-family: 'palatino linotype', 'Book Antiqua','palatino, serif';
 }
 
+/*Heading Styles*/
+
+h1 {
+    background-color: black;
+}
 
 /* Navigation Styles */
 
