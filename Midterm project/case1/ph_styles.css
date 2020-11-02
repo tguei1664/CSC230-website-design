@@ -64,6 +64,14 @@ nav {
     pandding-top, padding-bottom 10px;
 }
 
+nav a:link a:visited {
+    background-color: hsla(0, 0%, 42%, 0.4);
+}
+
+nav a:link a:unvisited {
+    background-color: hsla(0, 0%, 42%, 0.4);
+
+}
 
 
 
