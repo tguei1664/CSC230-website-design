@@ -26,7 +26,9 @@
 
 
 /* Structural Styles */
-
+html{
+    background-color: hsl(91, 8%, 56%);
+}
 
 
 
