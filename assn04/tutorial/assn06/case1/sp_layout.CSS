@@ -21,19 +21,23 @@ html {
     height: 100%;
 }
 body {
+    margin-left: auto;
+    margin-right: auto;
     width: 95%;
     max-width: 960px;
-    min-width: 640px;   
-}
-
-body > nav.horizontalNavigation li {
-    min-width: 100%;
+    min-width: 640px;    
 }
 
 
 
 
-/* Row Styles */
+
+/* Row Styles */ 
+body > header > nav.horizontalNavigation li {
+    width: 20%;
+}
+
+
 
 
 
