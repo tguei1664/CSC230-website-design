@@ -70,8 +70,14 @@ header {
 
 
 /* Horizontal Navigation List Styles */
+header, body, image {
+    display: block;
 
-
+}
+body,header,nav.horizontalNavigation li{
+    width: 12.5%;
+    float: left;
+}
 
 
 /* Topics Styles */
