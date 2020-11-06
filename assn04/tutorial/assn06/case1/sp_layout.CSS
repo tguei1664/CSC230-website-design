@@ -12,6 +12,9 @@
    Filename: sp_layout.css
 
 */
+header, ul, nav,li, a{
+    display: block;
+}
 
 /* Window and Body Styles */
 html {
