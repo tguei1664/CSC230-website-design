@@ -44,6 +44,12 @@ body > header > nav.horizontalNavigation li {
 
 
 /* Page Header Styles */
+body, header, image {
+    display: block;
+    width: 70%;
+    float: left;
+}
+    
 
 
 
