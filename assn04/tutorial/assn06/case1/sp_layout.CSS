@@ -58,6 +58,11 @@ header {
         width: 30%;
     }
 
+    body, header,nav {
+        display: block;
+        width: 100%;
+    }
+
 
 
 
