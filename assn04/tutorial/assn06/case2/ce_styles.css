@@ -39,6 +39,33 @@ body,image {
 
 
 /* Body Header Styles */
+header> link-top {
+    background-color: rgb(191, 68, 70);
+    height: 40px;
+}
+
+body> header {
+    display: block;
+    float: left;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 0.9em;
+
+}
+body > link :visited {
+    color: rgb(51, 51, 51);
+}
+
+body > link :non-visited {
+    color: rgb(51, 51, 51);
+}
+
+body {
+    color: rgb(255, 211, 211);
+}
 
 
 
