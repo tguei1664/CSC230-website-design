@@ -13,7 +13,29 @@
 
 
 /* Window and Body Styles */
+body {
+    background-color: rgb(101, 101, 101);
 
+}
+
+body a {
+    background-color: white;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 960px;
+    min-width: 320px;
+
+}
+
+body,image {
+    display: block;
+    width: 100%;
+    text-underline-position: none;
+}
 
 
 /* Body Header Styles */
