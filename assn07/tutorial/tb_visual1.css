@@ -26,6 +26,14 @@ figure img{
    width: 100%;
 }
 
+figure figcaption {
+   background-color: white;
+   font-family: 'palatino Linotype', palatino, 'Times new Roman' , serif;
+   font-style: italic;
+   padding: 10px 0;
+   text-align: center;
+}
+
 /* HTML Styles */
 
 
