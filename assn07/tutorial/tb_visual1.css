@@ -57,7 +57,12 @@ article {
                url(tb_back3.png) bottom left / 15% no-repeat content-box,
                url(tb_back4.png) 100%/cover no-repeat,
                rgb(211, 211, 211);
-}              
+}
+
+article header h1 {
+   text-shadow: rgb(181, 211, 181) 2px 2px 1px,
+                  rgba(21, 21, 21, 0.66) 5px 5px 25px
+}
 
 
 /* Page Body Styles */
