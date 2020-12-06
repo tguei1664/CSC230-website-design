@@ -20,6 +20,13 @@
    Base Flex Styles
    ================
 */
+body {
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wraap;
+    flex-flow: row wrap;
+}
 
 
 
