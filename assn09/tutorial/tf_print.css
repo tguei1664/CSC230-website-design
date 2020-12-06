@@ -17,6 +17,9 @@
 
 
 /* Hidden Objects */
+nav.horizontal, aside, footer {
+    display: none;
+}
 
 
 
