@@ -20,7 +20,9 @@
    Base Styles
    ===========
 */
-
+a#navicon {
+   display: none;
+}
 
 
 
