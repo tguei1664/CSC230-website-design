@@ -51,4 +51,9 @@ table.schedule tfoot {
 }
 
 /* Column Group Styles */
-
+col#firstcal {
+    background: rgb(218, 210, 210);
+}
+col.daycols {
+    background: rgb(255, 220, 255);
+}
