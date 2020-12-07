@@ -40,8 +40,15 @@ table.schedule caption {
 
 
 /* Row Group Styles */
+table.schedule thead {
+    background: rgb(153, 0, 153);
+    color: white;
+}
 
-
+table.schedule tfoot {
+    background: black;
+    color: white;
+}
 
 /* Column Group Styles */
 
