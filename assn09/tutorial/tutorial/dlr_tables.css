@@ -49,7 +49,12 @@ table.schedule tfoot {
     background: black;
     color: white;
 }
-
+table.schedule thead tr {
+    height: 30px;
+}
+table.schedule tbody tr {
+    height: 40px;
+}
 /* Column Group Styles */
 col#firstcal {
     background: rgb(218, 210, 210);
