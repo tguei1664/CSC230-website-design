@@ -9,46 +9,62 @@
    Date:   11/07/2020
    
    Filename: ce_grids.css
-
 */
-
 
 /* Grid Rows Styles */
 div.row {
-    clear: both;
-    width: 100%;
+  clear: both;
+  width: 100%;
 }
 
 div.row::after {
-    clear: both;
-    content: "";
-    display: table;
+  clear: both;
+  content: "";
+  display: table;
 }
-
-
-
 
 /* Grid Columns Styles */
-div[class="column"] {
-    float: left;
+div[class^="column"] {
+  float: left;
 }
-div.column100{width: 100%;}
-div.column50{width: 50%;}
-div.column33{width: 33.33%;}
-div.column67{width: 66.67%;}
-div.column25{width: 25%;}
-div.column75{width: 75%;}
-div.column20{width: 20%;}
-div.column40{width: 40%;}
-div.column60{width: 60%;}
-div.column80{width: 80%;}
-
-
+div.column100 {
+  width: 100%;
+}
+div.column50 {
+  width: 50%;
+}
+div.column33 {
+  width: 33.33%;
+}
+div.column67 {
+  width: 66.67%;
+}
+div.column25 {
+  width: 25%;
+}
+div.column75 {
+  width: 75%;
+}
+div.column20 {
+  width: 20%;
+}
+div.column40 {
+  width: 40%;
+}
+div.column60 {
+  width: 60%;
+}
+div.column80 {
+  width: 80%;
+}
 
 /* Grid Spacing Styles */
-div.container, div.row, div[class='column'], div.cell, div.cell a {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+div.container,
+div.row,
+div[class^="column"],
+div.cell,
+div.cell a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
