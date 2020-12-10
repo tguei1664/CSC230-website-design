@@ -11,14 +11,13 @@
    Filename: ce_styles.css
 */
 
-
 /* Window and Body Styles */
 body {
     background-color: rgb(101, 101, 101);
 
 }
 
-body a {
+body {
     background-color: white;
     font-family: Verdana, Arial, Tahoma, sans-serif;
     margin-top: 20px;
@@ -31,66 +30,59 @@ body a {
 
 }
 
-body,image {
+image {
     display: block;
     width: 100%;
-    text-underline-position: none;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 
 /* Body Header Styles */
-header> link-top {
-    background-color: rgb(191, 68, 70);
+body > header {
+    background-color: rgb(191, 168, 170);
     height: 40px;
 }
 
-body> header {
+body > header > nav > ul > li {
     display: block;
     float: left;
-    margin: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-right: 20px;
+    padding: 10px 0px;
+ }
+ 
+ body > header > nav a:visited, body > header > nav a:link {
+    color: rgb(51, 51, 51);
     font-size: 0.9em;
-
-}
-body > link :visited {
-    color: rgb(51, 51, 51);
-}
-
-body > link :non-visited {
-    color: rgb(51, 51, 51);
-}
-
-body {
+ }
+ 
+ body > header > nav a:hover, body > header > nav a:active {
     color: rgb(255, 211, 211);
-}
-
-body {
-    display: bottom-right;
-}
-
-
-/* DIV Container Styles */
-body> div {
+ }
+ 
+ /* DIV Container Styles */
+ 
+ div#container {
     padding-right: 8px;
     padding-bottom: 8px;
-}   
-
-div.cell, a {
+ }
+ 
+ div.cell a {
     display: block;
     width: 100%;
     padding-left: 8px;
     padding-top: 8px;
-}
-
-
-
-/* Footer Styles */
-footer{
+ }
+ 
+ /* Footer Styles */
+ 
+ footer {
     position: absolute;
-    color: rgb(143, 33, 36);
-    align-content: right;
+    right: 8px;
+    bottom: 8px;
+    text-align: right;
     font-size: 2vmin;
-}
+    color: rgb(143, 33, 36);
+ }
