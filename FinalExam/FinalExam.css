@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 5
+   Tutorial Case
+   
+   Author:   Tehe Leonard Wilfred Guei
+   Date:     12/15/2020
+   
+   Filename: FinalExam.css
+   
+   This file contains the flex styles used in the Trusted Friends
+   Pre-K Classes page.
+
+*/
+
+
+
+/* HTML and Body styles */
+
+ 
+ body {
+    font-family:"Tacoma";
+    color:black;
+    margin:auto;
+    background-color: darkorange;
+    font-size: 16px;
+ }
+
+ /* Header styles */
+
+ header h1 {
+     font-size: 36px;
+     margin-top:  35px;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-bottom: 0px;
+     padding-top: 15px;
+     padding-left: 15px;
+     padding-right: 0px;
+     padding-bottom: 0px;
+
+ }
+ header h3 {
+     font-size: 24pt;
+     margin: 0px;
+     padding-left:  15px;
+     padding-bottom: 15px;
+     padding-top: 0px;
+     padding-right: 0px;
+ }
+
+ h1 {
+     font:Arial;
+     font-size: 16px;
+     text-align: left;
+     letter-spacing: 2px;
+     margin:0px;
+     padding:15px 0px 0px 15px;
+     color: darkgreen;
+ }
+ h3 {
+     font:Arial;
+     text-align: left;
+     color: darkcyan;
+ }
+
+ h3 li {
+     color: black;
+ }
+ p {
+     margin: 15px;
+     padding: 15px;
+ }
+ 
+ 
+ 
+ 
+ /* Navigation list styles */
+ a {
+     text-decoration: none;
+
+ }
+ 
+ a:hover{
+     color:red;
+ }
+
+ 
+ 
+ 
+ /* Article Styles */
+ table {
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     width: 90%;
+     margin-left: 30px;
+ }
+ 
+ 
+
+ 
+ 
+ /* Footer styles */   
+ 
+ body> footer address{
+     background-color: rgb(222,128,60);
+     color: white;
+     font: normal;
+     text-align: center;
+ }
+    
+   
+
+    
+    
+ 
