@@ -78,6 +78,14 @@
  
  
  /* Navigation list styles */
+
+
+ nav {
+     color: beige;
+     font: darkblue;
+     margin-top: 0px;
+     text-align: center;
+ }
  a {
      text-decoration: none;
 
@@ -91,6 +99,8 @@
  
  
  /* Article Styles */
+
+
  table {
      padding-left: 5px;
      padding-right: 5px;
